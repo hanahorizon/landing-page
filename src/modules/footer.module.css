@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--footer-color);
+  color: white;
+
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+
+
+
+  .contents {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 120px;
+
+    p {
+      width: 300px;
+      padding-top: 30px;
+      line-height: 24px;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        padding-top: 10px;
+        font-size: 14px;
+        transition: 0.5s ease;
+        cursor: pointer;
+
+        &:hover {
+          color: #30caca;
+          transform: translate(1px, -1px);
+        }
+      }
+    }
+  }
+

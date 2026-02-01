@@ -1,0 +1,44 @@
+
+
+.card{
+  width: 300px;
+  background-color: white;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--hover-color);
+    color: white;
+  }
+
+  .icons {
+    padding-top: 30px;
+  }
+
+  h4 {
+    padding-top: 20px;
+    font-size: 22px;
+  }
+
+  p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #7e7e7e;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(147, 247, 247);
+      transform: scale(1.5);
+    }
+  }
+}

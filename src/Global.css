@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+        :root {
+            --primary-color: #519999;
+            --Primary-color-light: #7FBFBF;
+            --secondary-color: #D8E5E5;
+            --font-family: "montserrat", sans-serif;
+            --footer-color: #0C1E21;
+            --hover-color: #133838;
+
+        }
+
+        .container {
+            width: 1300px;
+            margin: 0 auto;
+            padding: 0 10px;
+            
+        }

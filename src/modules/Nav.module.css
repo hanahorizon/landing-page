@@ -1,0 +1,39 @@
+.navbar{
+    background-color: var(--Primary-color-light);
+    display: flex;
+      border-radius: 0px 0px 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    
+}
+
+.navlogo img {
+    width: 130px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.links{
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+        text-decoration: none;
+
+
+    
+}
+.links a {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: bold;
+}
+
+
+.active{
+    border-bottom: 2px solid #fff;
+
+}
