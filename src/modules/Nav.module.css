@@ -1,5 +1,5 @@
 .navbar{
-    background-color: var(--Primary-color-light);
+    background-color: var(--primary-color);
     display: flex;
       border-radius: 0px 0px 10px 10px;
     justify-content: space-between;
