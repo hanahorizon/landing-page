@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Styles/Cards.module.css";
-import CardData from "../Data/CardData";
+import CardData from "../Data/Home.js";
 
 const Cards = ({title, description}) => {
 
