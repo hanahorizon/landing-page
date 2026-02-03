@@ -6,7 +6,7 @@ import ContactForm from '../components/ContactForm'
 const Home = () => {
   return (
     <>
-    <Banner title="Driving Excellence Through Evolution & Trust." subtitle="GET TO KNOW US" buttonText="Learn more"  bannerImg="https://themejunction.net/html/bexon/demo/assets/images/hero/hero-img-2.webp"/>
+    < Banner title="Welcome to Our Website" subtitle="Discover amazing content and connect with us!" buttonText="Get Started"  bannerImg="public\assets\hero-img-2.webp"/>
 
     <CardSection/>
 
