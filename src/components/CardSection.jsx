@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "./Cards";
-import CardData from "../Data/CardData";
+import CardData from "../Data/Home";
+
 import styles from "../Styles/CardSection.module.css";
 
 const CardSection = () => {
